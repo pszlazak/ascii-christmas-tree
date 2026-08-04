@@ -9,8 +9,8 @@
 # License: MIT
 
 # colors
-COLOR_TREE=$(tput setaf 2)
-COLOR_STAR=$(tput setaf 227)
+COLOR_TREE=$(tput sgr0; tput setaf 2)
+COLOR_STAR=$(tput setaf 227 blink)
 COLOR_RST=$(tput sgr0)
 
 # from my ysap theme
